@@ -1,0 +1,24 @@
+<android.support.percent.PercentFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="net.sourceforge.simcpux.percentlayout.BottomFragment">
+
+
+        <!-- TODO: Update blank fragment layout -->
+        <Button
+            android:text="@string/hello_blank_fragment"
+            app:layout_heightPercent="50%"
+            app:layout_widthPercent="100%" />
+
+        <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:text="@string/hello_blank_fragment"
+        app:layout_heightPercent="50%"
+        android:layout_gravity="bottom"
+        app:layout_widthPercent="100%" />
+
+</android.support.percent.PercentFrameLayout>
