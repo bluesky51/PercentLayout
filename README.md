@@ -10,8 +10,8 @@
        1》是RelativeLayout的子类；  
        2》支持基于dimension(尺寸)和margin(边界)的的百分比(以百分号为后缀)；  
    《2》PercentFrameLayout  
-        1》是FrameLayout的子类；
-        2》支持基于dimension(尺寸)和margin(边界)的的百分比(以百分号为后缀)；
+        1》是FrameLayout的子类；  
+        2》支持基于dimension(尺寸)和margin(边界)的的百分比(以百分号为后缀)；  
 
   以上两布局共有xml中常用的属性：
    * layout_widthPercent:child的宽度百分比
