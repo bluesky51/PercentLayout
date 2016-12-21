@@ -2,14 +2,14 @@
 百分比布局的使用
 
 百分比布局说明：
-   只支持相对布局和FrameLayout和RelativeLayout,LinearLayout可以用layout_weight实现；
-1.配置：
-   在mudule下的build.gradle的dependencies中添加compile 'com.android.support:percent:25.0.0'(25.0.0为版本号)
-2.使用：
-   《1》PercentRelativeLayout
-       1》是RelativeLayout的子类；
-       2》支持基于dimension(尺寸)和margin(边界)的的百分比(以百分号为后缀)；
-   《2》PercentFrameLayout
+   只支持相对布局和FrameLayout和RelativeLayout,LinearLayout可以用layout_weight实现；  
+1.配置：  
+   在mudule下的build.gradle的dependencies中添加compile 'com.android.support:percent:25.0.0'(25.0.0为版本号)  
+2.使用：  
+   《1》PercentRelativeLayout  
+       1》是RelativeLayout的子类；  
+       2》支持基于dimension(尺寸)和margin(边界)的的百分比(以百分号为后缀)；  
+   《2》PercentFrameLayout  
         1》是FrameLayout的子类；
         2》支持基于dimension(尺寸)和margin(边界)的的百分比(以百分号为后缀)；
 
