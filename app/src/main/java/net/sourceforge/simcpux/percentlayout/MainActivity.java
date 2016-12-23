@@ -32,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
         fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction().add(
                 R.id.layout01,new TopFragment()
